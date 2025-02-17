@@ -1,0 +1,3 @@
+Crear una red virtual para cada aplicación:
+    Red "my_web_app" para mysql/apache containers
+    Red "my_api" para mongo y nodejs containers
