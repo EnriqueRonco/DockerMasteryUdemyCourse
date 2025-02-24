@@ -1,0 +1,1 @@
+Las cosas que cambien poco al principio del Dockerfile, para cachear el mayor número de layers, las cosas que cambien más, al final del Dockerfile
