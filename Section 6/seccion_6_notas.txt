@@ -1,0 +1,15 @@
+En el Dockefile puedes poner un apartado de VOLUME con la ruta del contenedor que se quiera almacenar en el host,
+lo que creará un volumen cuando se lance el contenedor de esa imagen y se creará un volumen en la ruta de la carpeta Docker donde
+se almancenen los volúmenes (normalmente /var/lib/docker/volumes)
+En windows y mac se crea en la maquina virtual de linux que se usa para lanzar Docker
+
+For PowerShell use: ${pwd} 
+
+For cmd.exe "Command Prompt use: %cd%
+
+Linux/macOS bash, sh, zsh, and Windows Docker Toolbox Quickstart Terminal use: $(pwd)
+
+In the real world, I always pin my production apps to the patch version. It's the only safe way to operate.
+
+# Permisos de ficheros en volúmenes compartidos
+Different names are fine, because it's only ID that counts. Two processes trying to access the same file must have a matching user ID or group ID.
